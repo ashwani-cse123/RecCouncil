@@ -1,0 +1,16 @@
+.box1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+    color: rgb(48, 48, 139);
+}
+.backg1{
+    background-color: rgba(127, 255, 212, 0.21);
+}
+.backg2{
+    background-color: rgb(255, 255, 255);
+}

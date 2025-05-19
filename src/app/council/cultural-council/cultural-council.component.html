@@ -1,0 +1,194 @@
+<div class="bg-gray-100 font-sans leading-relaxed">
+
+    <section class="max-w-7xl mx-auto px-4 py-10">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+        <i class="fas fa-camera-retro text-blue-600 mr-2"></i>
+        Gallery Highlights
+      </h2>
+  
+      <!-- Tabs -->
+      <div class="flex justify-center mb-6 space-x-4">
+        <button id="btn-year" [routerLink]="['']" class="px-6 py-2 rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all">
+          <i class="fas fa-star mr-2"></i> Best of the Year
+        </button>
+        <button id="btn-month" [routerLink]="['']" class="px-6 py-2 rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all">
+          <i class="fas fa-calendar-alt mr-2"></i> Best of the Month
+        </button>
+      </div>
+  
+      <!-- Year Gallery -->
+      <router-outlet></router-outlet>
+    </section>
+  
+</div>
+
+<section class="bg-gradient-to-b from-white via-blue-50 to-green-50 py-16 px-6">
+    <div class="text-center mb-16">
+        <h2 class="text-4xl font-extrabold text-green-700"><i class="fas fa-users-cog mr-2"></i>Cultural Council Core Team
+        </h2>
+        <p class="text-gray-600 text-lg mt-3">Meet the dynamic team leading the Cultural Council with passion and
+            creativity.</p>
+    </div>
+
+    <!-- Convenors -->
+    <div class="mb-14">
+        <h3 class="text-2xl font-bold text-blue-800 text-center mb-6"><i class="fas fa-user-tie mr-2"></i>Convenors</h3>
+        <div class="flex flex-wrap justify-center gap-10">
+            <div class="w-64 bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl transition">
+                <img src="https://source.unsplash.com/100x100/?man,leader"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-indigo-700">Alex Johnson</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user-shield mr-1 text-indigo-400"></i>Convenor</p>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl transition">
+                <img src="https://source.unsplash.com/100x100/?woman,leader"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-indigo-700">Nikita Sharma</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user-shield mr-1 text-indigo-400"></i>Co-Convenor</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Heads / Secretaries -->
+    <div class="mb-14">
+        <h3 class="text-2xl font-bold text-purple-700 text-center mb-6"><i class="fas fa-user-gear mr-2"></i>Secretaries
+            / Heads</h3>
+        <div class="flex flex-wrap justify-center gap-10">
+            <div class="w-64 bg-purple-50 rounded-2xl shadow-md p-6 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?woman,secretary"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-purple-800">Maria Lee</h4>
+                <p class="text-sm text-gray-600"><i class="fas fa-user-pen mr-1 text-purple-400"></i>Secretary</p>
+            </div>
+            <div class="w-64 bg-purple-50 rounded-2xl shadow-md p-6 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?man,media"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-purple-800">Arjun Patel</h4>
+                <p class="text-sm text-gray-600"><i class="fas fa-camera mr-1 text-purple-400"></i>Photography Head</p>
+            </div>
+            <div class="w-64 bg-purple-50 rounded-2xl shadow-md p-6 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?girl,creative"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-purple-800">Neha Verma</h4>
+                <p class="text-sm text-gray-600"><i class="fas fa-paint-brush mr-1 text-purple-400"></i>Design Head</p>
+            </div>
+            <div class="w-64 bg-purple-50 rounded-2xl shadow-md p-6 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?boy,writing"
+                    class="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+                <h4 class="text-xl font-semibold text-purple-800">Siddharth Rao</h4>
+                <p class="text-sm text-gray-600"><i class="fas fa-newspaper mr-1 text-purple-400"></i>Content &
+                    Journalism Head</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Members -->
+    <div>
+        <h3 class="text-2xl font-bold text-pink-700 text-center mb-6"><i class="fas fa-user-friends mr-2"></i>Members
+        </h3>
+        <div class="flex flex-wrap justify-center gap-10">
+            <div class="w-60 bg-pink-50 rounded-2xl shadow-md p-5 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?man,student"
+                    class="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                <h4 class="text-lg font-semibold text-pink-800">Rahul Mehta</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user mr-1 text-pink-400"></i>Member</p>
+            </div>
+            <div class="w-60 bg-pink-50 rounded-2xl shadow-md p-5 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?girl,student"
+                    class="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                <h4 class="text-lg font-semibold text-pink-800">Sneha Kapoor</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user mr-1 text-pink-400"></i>Member</p>
+            </div>
+            <div class="w-60 bg-pink-50 rounded-2xl shadow-md p-5 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?woman,team"
+                    class="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                <h4 class="text-lg font-semibold text-pink-800">Aisha Khan</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user mr-1 text-pink-400"></i>Member</p>
+            </div>
+            <div class="w-60 bg-pink-50 rounded-2xl shadow-md p-5 text-center hover:shadow-xl transition">
+                <img src="https://source.unsplash.com/100x100/?boy,creative"
+                    class="w-20 h-20 rounded-full mx-auto mb-3 object-cover" />
+                <h4 class="text-lg font-semibold text-pink-800">Karan Malhotra</h4>
+                <p class="text-sm text-gray-500"><i class="fas fa-user mr-1 text-pink-400"></i>Member</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+
+<footer class="bg-amber-800 text-white mt-12">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-3xl font-extrabold text-center mb-8 text-white">
+            <i class="fas fa-users-gear text-yellow-400 mr-2"></i>Join the Cultural Council
+        </h2>
+
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Name -->
+            <div>
+                <label class="block mb-2 font-semibold" for="name">
+                    <i class="fas fa-user mr-2 text-yellow-400"></i>Name
+                </label>
+                <input type="text" id="name" name="name" required
+                    class="w-full px-4 py-2 rounded-lg text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <!-- Branch -->
+            <div>
+                <label class="block mb-2 font-semibold" for="branch">
+                    <i class="fas fa-code-branch mr-2 text-yellow-400"></i>Branch
+                </label>
+                <input type="text" id="branch" name="branch" required
+                    class="w-full px-4 py-2 rounded-lg text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <!-- Phone -->
+            <div>
+                <label class="block mb-2 font-semibold" for="phone">
+                    <i class="fas fa-phone-alt mr-2 text-yellow-400"></i>Phone Number
+                </label>
+                <input type="tel" id="phone" name="phone" required
+                    class="w-full px-4 py-2 rounded-lg text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label class="block mb-2 font-semibold" for="email">
+                    <i class="fas fa-envelope mr-2 text-yellow-400"></i>Email ID
+                </label>
+                <input type="email" id="email" name="email" required
+                    class="w-full px-4 py-2 rounded-lg text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <!-- Year -->
+            <div class="md:col-span-2">
+                <label class="block mb-2 font-semibold" for="year">
+                    <i class="fas fa-graduation-cap mr-2 text-yellow-400"></i>Year
+                </label>
+                <select id="year" name="year" required
+                    class="w-full px-4 py-2 rounded-lg text-gray-800 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                    <option value="">Select Year</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="md:col-span-2 text-center mt-4">
+                <button type="submit"
+                    class="inline-flex items-center gap-2 px-6 py-2 bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-semibold rounded-full transition duration-200">
+                    <i class="fas fa-paper-plane"></i> Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="text-center py-5 border-t border-blue-800 text-sm">
+        <p>
+            &copy; 2025 <i class="fas fa-bullhorn text-yellow-400"></i> Cultural Council | Designed with
+            <i class="fas fa-heart text-red-500 animate-pulse mx-1"></i> using Tailwind CSS
+        </p>
+    </div>
+</footer>

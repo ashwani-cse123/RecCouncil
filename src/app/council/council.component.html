@@ -1,0 +1,70 @@
+<div class="container mx-auto px-4 py-8 bg-gray-300">
+  <div class="grid grid-cols-2  sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <a routerLink="/media" class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full mask-radial-to-fuchsia-100 w-48 h-45 object-cover"
+          src="data:image/png;base64,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"
+          alt="Image 1" />
+        <h3 class="text-lg font-semibold text-gray-800">Media council</h3>
+        <!-- <p class="text-sm text-gray-500">Developer</p> -->
+      </div>
+    </a><!-- Card 1 -->
+
+
+    <!-- Card 2 -->
+    <a routerLink="/technical"   class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full w-48 h-45 object-cover"
+          src= "data:image/png;base64,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"
+          alt="Image 1" />
+        <h3 class="text-lg font-semibold text-gray-800">Technical council</h3>
+        <!-- <p class="text-sm text-gray-500">Developer</p> -->
+      </div>
+    </a> 
+    <!-- Card 3 -->
+   <a routerLink="/" class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full mask-radial-to-fuchsia-100 w-48 h-45 object-cover"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSY3T1swmGC8nOB0igmyS3WDHiuKBoD_m9uw&s"
+          alt="Image 1"/>
+        <h3 class="text-lg font-semibold text-gray-800"> council of fine arts</h3>
+      </div>
+    </a>
+    <!-- Card 4 -->
+   <a routerLink="/"   class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full w-48 h-45 object-cover sportimg"
+          src= "https://m.media-amazon.com/images/I/51M-3ApkhdL.jpg"
+          alt="Image 1" />
+        <h3 class="text-lg font-semibold text-gray-800">Sport council</h3>
+      </div>
+    </a> 
+       <a routerLink="/"   class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full w-48 h-45 object-cover sportimg"
+          src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG9DxKleINrFvyp1CtxyeLqB0L903ajzm_Uw&s"
+          alt="Image 1" />
+        <h3 class="text-lg font-semibold text-gray-800">Litrary council</h3>
+      </div>
+    </a> 
+     <a routerLink="/cult" class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full mask-radial-to-fuchsia-100 w-48 h-45 object-cover"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVlTgoX_KfTJs5kX2feiQCsMrHifmQZIbSQ&s"
+          alt="Image 1" />
+        <h3 class="text-lg font-semibold text-gray-800">Cultural council</h3>
+      </div>
+    </a>
+
+     <a routerLink="/" class="transition-transform duration-300 hover:scale-105 text-blue-600 hover:text-blue-800">
+      <div class="flex flex-col items-center space-y-2">
+        <img class="rounded-full mask-radial-to-fuchsia-100 w-48 h-45 object-cover"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5TjHgK28j_Sakjl2JFRenKdhjGDST2c_1g&s"
+          alt="Image 1"/>
+        <h3 class="text-lg font-semibold text-gray-800">Hobby council</h3>
+      </div>
+    </a>
+
+  </div>
+</div>
